@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "2cab2cf0-abf9-4149-8243-06f1f5e8dde0",
+		"name": "Livedev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19637457"
+	},
+	"item": [
+		{
+			"name": "CSRF",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://eportal.bckualanamu.info/mod/ajax_login/client",
+					"protocol": "https",
+					"host": [
+						"eportal",
+						"bckualanamu",
+						"info"
+					],
+					"path": [
+						"mod",
+						"ajax_login",
+						"client"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
